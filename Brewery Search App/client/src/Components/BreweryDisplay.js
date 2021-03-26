@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col'
 
 function BreweryDisplay() {
     return (
-        <Container>
+        <Container id="brewerydisplay-container">
             <Row>
                 <Col><BreweryList /></Col>
                 <Col><BreweryMap /></Col>

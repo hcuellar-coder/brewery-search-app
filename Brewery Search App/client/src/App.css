@@ -1,5 +1,39 @@
-#search-bar-container{
-    height: 2vh;
+html, body, #root{
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+}
+
+.app-container{
+    display: flex;
+    justify-content: center;
+}
+
+#brewerydisplay-container {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+
+#brewerylist-container {
+    border: 1px;
+    border-color: black;
+    height: auto;
+    max-height: 80%;
+}
+
+#home-container {
+    height: 100%;
+}
+
+#search-bar-row {
+    height: 6vh;
+}
+
+#search-bar-form-control {
+    width: 40vw;
 }
 
 #search-bar-button {

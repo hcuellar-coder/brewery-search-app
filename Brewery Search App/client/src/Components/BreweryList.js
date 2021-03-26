@@ -1,10 +1,20 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container'
+import Card from 'react-bootstrap/Card'
 
 function BreweryList() {
     return (
-        <div>
-            Brewery List
-        </div>
+        <Container fluid id="brewerylist-container">
+            <Card>
+                <Card.Body>
+                    <Card.Title>Brewery Name</Card.Title>
+                    <Card.Subtitle> City </Card.Subtitle>
+                    <Card.Text>
+                        More information
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </Container>
     )
 }
 

@@ -3,17 +3,22 @@ import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 function SearchBar() {
     return (
-        <Container id="search-bar-container">
-            <Row id="search-bar-row">
-                <Form>
-                    <Form.Group>
-                        <Form.Control placeholder="Search Breweries"></Form.Control>
-                    </Form.Group>
-                </Form>
-                <Button id="search-bar-button">Search</Button>
+        <Container fluid className="app-container">
+            <Row>
+                <Col>
+                    <Form>
+                        <Form.Group>
+                            <Form.Control id="search-bar-form-control" placeholder="Search Breweries"></Form.Control>
+                        </Form.Group>
+                    </Form>
+                </Col>
+                <Col>
+                    <Button id="search-bar-button">Search</Button>
+                </Col>
             </Row>
         </Container>
     )

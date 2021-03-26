@@ -1,0 +1,9 @@
+#search-bar-container{
+    height: 2vh;
+}
+
+#search-bar-button {
+    border: none;
+    color: black;
+    background-color: aliceblue;
+}

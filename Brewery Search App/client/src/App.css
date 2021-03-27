@@ -11,18 +11,44 @@ html, body, #root{
     justify-content: center;
 }
 
+.brewerylist-card {
+    margin-bottom: 5px;
+}
+
 #brewerydisplay-container {
     display: flex;
     justify-content: center;
     height: 80%;
+
+}
+
+#brewerydisplay-row {
+    width: 100%;
+}
+
+#brewerylist-col {
+    width: 100px;
+    margin-top: 10px;
 }
 
 #brewerylist-container {
     border: 1px;
     border-color: black;
-    height: auto;
-    max-height: 80%;
+    /* height: auto;
+    max-height: 80%; */
+    height: 60vh;
 }
+
+#brewerymap-container {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    /* height: auto; */
+    height: 60vh;
+    width: 60vw;
+}
+
+
 
 #home-container {
     height: 100%;

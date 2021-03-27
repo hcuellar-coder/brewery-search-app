@@ -1,10 +1,11 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container'
 
 function BreweryMap() {
     return (
-        <div>
+        <Container id="brewerymap-container">
             Brewery map
-        </div>
+        </Container>
     )
 }
 

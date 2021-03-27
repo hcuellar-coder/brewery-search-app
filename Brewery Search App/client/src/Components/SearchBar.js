@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 function SearchBar() {
     return (
         <Container fluid className="app-container">
-            <Row>
+            <Row id="search-bar-row">
                 <Col>
                     <Form>
                         <Form.Group>

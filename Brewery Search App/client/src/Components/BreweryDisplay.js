@@ -9,8 +9,8 @@ function BreweryDisplay() {
     return (
         <Container id="brewerydisplay-container">
             <Row id="brewerydisplay-row">
-                <Col xs={true} id="brewerylist-col"><BreweryList /></Col>
-                {/* <Col md={true} id="brewerymap-col"><BreweryMap /></Col> */}
+                <Col id="brewerylist-col"><BreweryList /></Col>
+                <Col id="brewerymap-col"><BreweryMap /></Col>
             </Row>
         </Container>
     )

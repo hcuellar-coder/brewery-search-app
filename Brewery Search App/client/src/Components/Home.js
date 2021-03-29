@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 function Home() {
     return (
         <Container fluid id="home-container">
-            <h1 className='home-header'>Brewery Search App</h1>
+            <h1 id='home-header'>Brewery Search App</h1>
             <SearchBar />
             <BreweryDisplay />
         </Container>

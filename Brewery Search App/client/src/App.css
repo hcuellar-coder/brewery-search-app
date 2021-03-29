@@ -48,10 +48,14 @@ html, body, #root{
     width: 60vw;
 }
 
-
-
 #home-container {
     height: 100%;
+}
+
+#home-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 #search-bar-row {

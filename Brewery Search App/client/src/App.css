@@ -34,7 +34,8 @@ html, body, #root{
 #brewerylist-container {
     border: 1px;
     border-color: black;
-    height: 60vh;
+    height: auto;
+    margin-bottom: 5vh;
 }
 
 #brewerymap-container {
@@ -43,6 +44,7 @@ html, body, #root{
     border-color: black;
     height: 60vh;
     width: 60vw;
+    margin-bottom: 5vh;
 }
 
 #home-container {

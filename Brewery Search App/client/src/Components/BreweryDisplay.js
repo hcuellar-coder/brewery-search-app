@@ -3,20 +3,15 @@ import BreweryList from './BreweryList'
 import BreweryMap from './BreweryMap'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
 function BreweryDisplay() {
     return (
         <Container id="brewerydisplay-container">
             <Row id="brewerydisplay-row">
                 <BreweryList />
-                {/* <Col id="brewerylist-col"><BreweryList /></Col> */}
-                {/* <Col id="brewerymap-col"><BreweryMap /></Col> */}
             </Row>
             <Row id="brewerydisplay-row">
                 <BreweryMap />
-                {/* <Col id="brewerylist-col"><BreweryList /></Col> */}
-                {/* <Col id="brewerymap-col"><BreweryMap /></Col> */}
             </Row>
         </Container>
     )

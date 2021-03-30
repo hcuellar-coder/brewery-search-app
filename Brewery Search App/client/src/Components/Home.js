@@ -1,15 +1,19 @@
 import React from 'react'
 import SearchBar from './SearchBar'
 import BreweryDisplay from './BreweryDisplay'
+import BreweryMap from './BreweryMap'
 import Container from 'react-bootstrap/Container'
 
 function Home() {
     return (
-        <Container fluid id="home-container">
-            <h1 id='home-header'>Brewery Search App</h1>
-            <SearchBar />
-            <BreweryDisplay />
-        </Container>
+        <div>
+            <BreweryMap />
+            <Container fluid id="home-container">
+                <SearchBar />
+                <BreweryDisplay />
+            </Container>
+        </div>
+
     )
 }
 

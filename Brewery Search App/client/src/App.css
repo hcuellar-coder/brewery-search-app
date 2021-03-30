@@ -12,27 +12,6 @@ html, body, #root{
     margin-bottom: 5px;
 }
 
-#brewerydisplay-container {
-    /* display: flex;
-    flex-direction: row;
-    height: 80%; */
-
-}
-
-#brewerydisplay-row {
-    /* display: flex;
-    flex-direction: row;
-    width: 100%; */
-}
-
-/* #brewery-map {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-} */
-
 #brewerylist-col {
     width: 100px;
     margin-top: 10px;

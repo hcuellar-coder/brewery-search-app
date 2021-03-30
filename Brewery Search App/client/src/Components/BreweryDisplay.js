@@ -3,15 +3,14 @@ import BreweryList from './BreweryList'
 import BreweryMap from './BreweryMap'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 function BreweryDisplay() {
     return (
-        <Container id="brewerydisplay-container">
+        <Container fluid id="brewerydisplay-container">
             <Row id="brewerydisplay-row">
-                <BreweryList />
-            </Row>
-            <Row id="brewerydisplay-row">
-                <BreweryMap />
+                <Col><BreweryList /></Col>
+                <Col><BreweryMap /></Col>
             </Row>
         </Container>
     )

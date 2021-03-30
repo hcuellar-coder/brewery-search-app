@@ -16,14 +16,16 @@ html, body, #root{
 }
 
 #brewerydisplay-container {
-    display: flex;
-    flex-direction: column;
-    height: 80%;
+    /* display: flex;
+    flex-direction: row;
+    height: 80%; */
 
 }
 
 #brewerydisplay-row {
-    width: 100%;
+    /* display: flex;
+    flex-direction: row;
+    width: 100%; */
 }
 
 #brewerylist-col {

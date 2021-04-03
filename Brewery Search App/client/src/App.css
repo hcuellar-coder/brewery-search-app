@@ -45,6 +45,7 @@ html, body, #root{
 #home-container {
     padding-top: 8vh;
     height: 100%;
+    background-color: white;
 }
 
 #search-bar-container{

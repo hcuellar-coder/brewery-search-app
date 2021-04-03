@@ -17,12 +17,9 @@ html, body, #root{
 }
 
 #brewerylist-container {
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 55vw;
-
 }
 
 #brewerymap-container {
@@ -40,33 +37,52 @@ html, body, #root{
 }
 
 #home-container {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
     padding-top: 8vh;
     height: 100%;
     
 }
 
+#search-bar-input-col {
+    padding-right: 0;
+}
+
+#search-bar-button-col {
+    padding-left: 0;
+}
+
 #search-bar-container{
-    background-color: white;
-    width: 55vw;
     display: flex;
     justify-content: flex-start;
 }
 
 #search-bar-row {
     height: 6vh;
+
 }
 
 #search-bar-form-control {
     width: 40vw;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+    outline: none;
 }
+
+#search-bar-form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
 
 #search-bar-button {
     border: none;
     color: black;
-    background-color: aliceblue;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
+    outline: none;
 }

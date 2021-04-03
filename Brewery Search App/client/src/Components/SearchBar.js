@@ -9,14 +9,14 @@ function SearchBar() {
     return (
         <Container fluid id="search-bar-container">
             <Row id="search-bar-row">
-                <Col>
+                <Col id="search-bar-input-col">
                     <Form>
                         <Form.Group>
                             <Form.Control id="search-bar-form-control" placeholder="Search Breweries"></Form.Control>
                         </Form.Group>
                     </Form>
                 </Col>
-                <Col>
+                <Col id="search-bar-button-col">
                     <Button id="search-bar-button">Search</Button>
                 </Col>
             </Row>

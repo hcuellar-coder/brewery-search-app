@@ -17,15 +17,12 @@ html, body, #root{
 }
 
 #brewerylist-container {
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
-    /* border: 1px;
-    border-color: black;
-    height: auto;
-    margin-bottom: 5vh;
-    width: 40vw; */
+    width: 55vw;
+
 }
 
 #brewerymap-container {
@@ -43,12 +40,19 @@ html, body, #root{
 }
 
 #home-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
     padding-top: 8vh;
     height: 100%;
-    background-color: white;
+    
 }
 
 #search-bar-container{
+    background-color: white;
+    width: 55vw;
     display: flex;
     justify-content: flex-start;
 }
